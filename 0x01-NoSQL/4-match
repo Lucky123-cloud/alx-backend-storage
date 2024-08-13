@@ -1,0 +1,12 @@
+//Write a script that lists all documents with name="Holberton school" in the collection school:
+
+//The database name will be passed as option of mongo command
+
+
+
+db.school.find({ name: "Holberton school" })  //the solution to the challenge
+
+
+
+//when asked to get a specific doc in MongoDB use the find() and inside it, add the specifics as in the solution above
+//This is going to only list the documents with the name 'Holberton school'
